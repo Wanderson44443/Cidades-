@@ -8,7 +8,7 @@
     <title>Cidades</title>
     <link rel="shortcut icon" href="icone.jpg" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family);
 
 
 
@@ -24,7 +24,7 @@
         }
 
         #conteudo-principal {
-            height: 604px;
+            
             background-color: #dfdfdf;
         }
 
@@ -51,7 +51,23 @@
             color: #AA2B2B;
         }
 
-       
+        .subtitulo {
+            font-size: 40px;
+            color: #314d9bbd;
+            font-family: 'Poppins';
+            font-weight: 600;
+
+
+        }
+        .texto-comum{
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open Sans';
+            text-align: justify;
+        }
+        .texto-colunas{
+            column-count: 2;
+        }
     </style>
 </head>
 
@@ -66,11 +82,42 @@
         <a href="tokio.html" class="item-menu">TOKIO</a>
     </nav>
 
-    <main id="conteudo-principal"></main>
+    <main id="conteudo-principal">
 
-    <footer id="rodape"></footer>
+        <h2 class="subtitulo">LONDRES</h2>
+        <video width="600" controls>
+            <source src="video/video-londres.mp4" type="video/mp4">
+            
 
 
+        </video>
+
+        <p clas ="texto-comum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at pretium dui, at hendrerit quam. Quisque
+            at nisi et purus imperdiet consectetur. Integer sit amet bibendum nisl, eu faucibus tellus. Nulla facilisi.
+            Donec turpis orci, fermentum vel nisi in, euismod tincidunt sem. Phasellus semper dictum tincidunt. Mauris
+            suscipit nulla vel nibh egestas, non tristique nibh semper. Aenean tincidunt diam ac erat pulvinar, eget
+            feugiat est sollicitudin.</p>
+
+        <p class="texto-comum">Sed euismod volutpat laoreet. Morbi et massa posuere, ultricies turpis quis, aliquam elit. Mauris suscipit
+            sapien ac enim volutpat, in eleifend velit dignissim. Etiam ultricies ultricies ex, sit amet volutpat mauris
+            tincidunt at. Fusce pulvinar nulla in eleifend commodo. Nunc auctor tincidunt nulla egestas maximus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+        <p class="texto-comum texto-colunas">
+            Nunc lacinia faucibus enim, laoreet tempus ante dictum sit amet. In hac habitasse platea dictumst. Morbi
+            laoreet enim at convallis consequat. Nam sit amet lorem eu urna pulvinar consequat id in tellus. Vestibulum
+            at porttitor tellus. Duis id ex auctor, vestibulum metus vitae, bibendum leo. Cras accumsan finibus est,
+            tincidunt iaculis est pharetra et. Cras ante lectus, pellentesque sed urna sed, convallis pulvinar justo.
+            Mauris vehicula convallis nisl in tincidunt. Integer sit amet ultricies erat. Integer eget turpis vitae
+            sapien venenatis accumsan non tincidunt tellus. Aliquam a justo vitae felis cursus scelerisque ut sed dui.
+            Sed in sapien dui. Donec tempus, ante eu iaculis pretium, dui orci pharetra massa, sed ultrices felis mi
+            quis urna. Maecenas accumsan ex magna, vitae feugiat leo aliquam nec. Aliquam blandit est eget cursus
+            mattis.
+        </p>
+
+        <footer id="rodape"></footer>
+
+    </main>
 
 </body>
 
